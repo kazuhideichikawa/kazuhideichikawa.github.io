@@ -1,23 +1,28 @@
-# This is the title
+# ブログのタイトル
 
-Here's the table of contents:
+目次です：
 
 1. TOC
 {:toc}
 
-## Basic setup
+## 基本的な設定
 
-Jekyll requires blog post files to be named according to the following format:
+ブログ記事のファイル名のフォーマットは以下のようにする必要がある:
 
 `YEAR-MONTH-DAY-filename.md`
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `filename` is whatever file name you choose, to remind yourself what this post is about. `.md` is the file extension for markdown files.
+ここで、 `YEAR` は４桁の数字で、 `MONTH` と `DAY` は２桁の数字で、 `filename` はどのような名前でもよい。 `.md` はマークダウンファイルの拡張子。
 
-The first line of the file should start with a single hash character, then a space, then your title. This is how you create a "*level 1 heading*" in markdown. Then you can create level 2, 3, etc headings as you wish but repeating the hash character, such as you see in the line `## File names` above.
+ファイルの最初の行は、#で始まり、空白文字を入れて、ブログのタイトル、というものである必要がある。
+これは "*レベル1の見出し*" をマークダウンで書く方法である。
+#を２個以上つけると、レベル2, 3 などの見出しが書ける。
+（上で使っている`## 基本的な設定`のように。）
 
-## Basic formatting
+## 基本フォーマット
 
-You can use *italics*, **bold**, `code font text`, and create [links](https://www.markdownguide.org/cheat-sheet/). Here's a footnote [^1]. Here's a horizontal rule:
+で挟むと*イタリック*、**ボールド**、'コードフォント文字'、[リンク](https://www.markdownguide.org/cheat-sheet/)　を作ることができる。
+脚注は [^1]
+罫線は、
 
 ---
 
