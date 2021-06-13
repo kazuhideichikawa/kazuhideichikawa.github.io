@@ -45,17 +45,17 @@
 
 > これは引用です。
 
-警告ボックス
+警告ボックスは、include alert.html text="箱に入れたい文字" を、{% と  %} で囲む。
 
 {% include alert.html text="警告ボックス" %}
 
-情報ボックス
+情報ボックスは、include info.html text="箱に入れたい文字" を、{% と  %} で囲む。
 
 {% include info.html text="情報ボックス" %}
 
-## Images
+## 画像
 
-![](/images/logo.png "fast.ai's logo")
+![](/images/logo.png "fast.aiのロゴ")
 
 ## Code
 
