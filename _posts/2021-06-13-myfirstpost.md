@@ -1,5 +1,7 @@
 # fast_templateを使ってブログを書く
 
+[このページ](https://www.fast.ai/2020/01/16/fast_template/)を参照しています。
+
 目次は、番号の箇条書きを表す 1. の後に、TOC と書く：
 
 1. TOC
