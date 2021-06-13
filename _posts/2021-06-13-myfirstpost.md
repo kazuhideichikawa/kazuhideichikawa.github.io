@@ -1,4 +1,4 @@
-# ブログのタイトル
+# fast_templateを使ってブログを書く
 
 目次は、番号の箇条書きを表す 1. の後に、TOC と書く：
 
@@ -59,7 +59,7 @@
 
 ![](/images/logo.png "fast.aiのロゴ")
 
-## Code
+## コード
 
 General preformatted text:
 
@@ -75,7 +75,9 @@ print(1+1)
 
     2
 
-## Tables
+## 表
+
+| と - を使って書く。
 
 | Column 1 | Column 2 |
 |-|-|
@@ -83,5 +85,7 @@ print(1+1)
 
 ## Footnotes
 
-[^1]: This is the footnote.
+脚注はキャレット＋数字を角かっこに入れたもので表す。
+
+[^1]: 脚注です。
 
