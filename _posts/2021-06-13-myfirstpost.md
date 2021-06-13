@@ -20,33 +20,38 @@
 
 ## 基本フォーマット
 
-で挟むと*イタリック*、**ボールド**、'コードフォント文字'、[リンク](https://www.markdownguide.org/cheat-sheet/)　を作ることができる。
-脚注は [^1]
-罫線は、
+アスタリスクで挟むと*イタリック*、アスタリスク２つで挟むと**ボールド**、１重引用符で挟むと'コードフォント文字'、
+角かっこでリンク名を挟み、その後ろに丸かっこの中にurlを書くと、リンクを作ることができる：[マークダウンガイドへのリンク](https://www.markdownguide.org/cheat-sheet/)　
+脚注はキャレット＋数字を角かっこに入れたもので表す。 [^1]
+横罫線は３つのハイフンで書ける。
 
 ---
 
-## Lists
+## 箇条書き
 
-Here's a list:
+箇条書きは、-(ハイフン)で書ける:
 
-- item 1
-- item 2
+- アイテム 1
+- アイテム 2
 
-And a numbered list:
+番号の箇条書きは、1. (1とピリオド)で書ける:
 
-1. item 1
-1. item 2
+1. アイテム 1
+1. アイテム 2
 
-## Boxes and stuff
+## 引用や箱など
 
-> This is a quotation
+引用は、> で始める：
 
-{% include alert.html text="You can include alert boxes" %}
+> これは引用です。
 
-...and...
+警告ボックス
 
-{% include info.html text="You can include info boxes" %}
+{% include alert.html text="警告ボックス" %}
+
+情報ボックス
+
+{% include info.html text="情報ボックス" %}
 
 ## Images
 
