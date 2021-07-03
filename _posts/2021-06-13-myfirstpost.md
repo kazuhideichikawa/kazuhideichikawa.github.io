@@ -91,3 +91,14 @@ print(1+1)
 
 [^1]: 脚注です。
 
+## 数式
+
+_config.yml の use_math を true にする。
+
+    # Set this to true to get LaTeX math equation support
+    use_math: true
+
+すると、tex記法で数式が書ける。KaTeXというものが使われているっぽい。
+https://katex.org/docs/supported.html
+
+VS Code の機能拡張で、Markdown Preview Enhanced をインストールすると、Previewも数式に変換されるので便利。このプレビューを見るには、エディター上で右クリックをして、Markdown Preview Enhancedを選択する。
